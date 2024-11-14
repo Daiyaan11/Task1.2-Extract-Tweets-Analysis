@@ -54,7 +54,7 @@ def clean_tweet_text(text):
 
 # Define your search query and location (Johannesburg)
 query = "(#servicedelivery OR #municipality OR #eskom OR #citypower OR #joburgwater) AND (complaint OR issue OR problem)"
-geocode = "-26.2041,28.0473,45km"  # Latitude, longitude, and radius around Johannesburg
+geocode = "-26.2041,28.0473,30km"  # Latitude, longitude, and radius around Johannesburg
 
 # Step 1: Collect tweets based on the query and location
 collect_tweets(query, geocode)
